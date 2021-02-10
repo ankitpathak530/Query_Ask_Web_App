@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+   <servlet>
+       <servlet-name>AddPostServlet</servlet-name>
+       <servlet-class>com.tech.blog.servlet.AddPostServlet</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+      <servlet-name>AddPostServlet</servlet-name>
+      <url-pattern>/AddPostServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
